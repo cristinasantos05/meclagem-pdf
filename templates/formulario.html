@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Upload de PDF</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h1>Mesclar PDFs</h1>
+    <form action="/mesclar_pdfs/" method="post" enctype="multipart/form-data">
+        <input type="file" name="files" multiple>
+        <button type="submit">Mesclar PDFs</button>
+    </form>
+</body>
+</html>
